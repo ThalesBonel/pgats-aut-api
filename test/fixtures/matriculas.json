@@ -1,0 +1,32 @@
+[
+    {
+        "testTitle": "Validar matricula do aluno Thales em uma nova disciplina com sucesso",
+        "dadosAluno": {
+            "nome": "Thales Tests",
+            "email": "thales.test@test.com",
+            "matricula": "987654",
+            "senha": "123456"
+        },
+        "dadosDisciplina": {
+            "nome": "Automação de Testes",
+            "codigo": "AUT098",
+            "cargaHoraria": 70
+        },
+        "statusCodeEsperado": 201
+    },
+    {
+        "testTitle": "Validar matricula da aluna Beatriz em uma nova disciplina com sucesso",
+        "dadosAluno": {
+            "nome": "Beatriz Tests",
+            "email": "bia.test@test.com",
+            "matricula": "B12345",
+            "senha": "563479"
+        },
+        "dadosDisciplina": {
+            "nome": "Mkt digital",
+            "codigo": "MKT0982",
+            "cargaHoraria": 86
+        },
+        "statusCodeEsperado": 201
+    }     
+]
